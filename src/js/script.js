@@ -24,7 +24,6 @@ const openGame = () => {
     return `<div class="attempts"></div><form class="checkNumber"><input pattern="-?(\\d+|\\d+.\\d+|.\\d+)([eE][-+]?\\d+)?" type="number" name="number" placeholder="Введите число" /><input type="button" class="btn-checkNumber" value="Проверить"/></form>`
 }
 
-
 const createGame = () => {
   return `<button class="btn-createGame">Начать игру</button>`
 }
